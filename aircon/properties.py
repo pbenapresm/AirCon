@@ -286,7 +286,7 @@ class AcProperties(Properties):
       'base_type': 'integer',
       'read_only': False
   })  # CurrentTemperature
-  t_temptype: TemperatureUnit = field(default=TemperatureUnit.FAHRENHEIT,
+  t_temptype: TemperatureUnit = field(default=TemperatureUnit.CELSIUS,
                                       metadata={
                                           'base_type': 'boolean',
                                           'read_only': False,
